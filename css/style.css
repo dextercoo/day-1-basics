@@ -1,5 +1,46 @@
 *{
     margin: 0;
     padding: 0;
-    background: #D5F5E3;
+}
+
+.row{
+    width:100%;
+}
+.mainContainer{
+    max-width: 1680px;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.headerBG{
+    background-color: #d8ee10;
+    width: 100%;
+    display: inline-block;   
+}
+.headerMenu{
+    display: flex;
+    
+    justify-content: space-between;
+    height: 92px;
+}
+
+
+nav{
+    display: inline-block;
+   
+    
+    
+}
+nav ul li {
+    display: inline-block;
+    
+    
+}
+nav ul li a{
+    /* position: relative */
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    left: 20px;
 }
